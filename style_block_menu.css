@@ -104,10 +104,6 @@ ul {
     background-color: #FF3E79;
 }
 
-.menu__icon {
-    border-radius: 50%;
-}
-
 .menu__item-icon:hover, .menu__item-icon:active {
     transition-duration: 0.5s;
     opacity: 0.5;

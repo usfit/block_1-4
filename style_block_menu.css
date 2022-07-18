@@ -58,7 +58,6 @@ body {
     vertical-align: top;
     letter-spacing: -0.2px;
     background-color: #ffffff;
-    width: 320px;
     margin: 0px;
 }
 
@@ -72,13 +71,19 @@ ul {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 19px 24px 32px 24px;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+    width: 320px;
+    gap: 42px;
+    height: 94vh;
 }
 
 .upper-menu {
     display: flex;
-    padding-bottom: 46px;
+    justify-content: space-between;
     align-items: center;
     gap: 78px;
 }
@@ -121,12 +126,14 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 876px;;
+    gap: 20px;
+    height: 100vh;
 }
 
 .menu {
     display: flex;
     flex-direction: column;
+    margin: 0;
     gap: 32px;
 }
 
@@ -167,7 +174,7 @@ ul {
 .contact-block {
     display: flex;
     flex-direction: column;
-    height: 124px;
+    gap: 16px;
     justify-content: space-between;
 } 
 
@@ -192,6 +199,7 @@ ul {
 .lang-menu {
     display: flex;
     gap: 7px;
+    width: max-content;
 }
 
 .footer-menu {
